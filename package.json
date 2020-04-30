@@ -47,7 +47,8 @@
     "request": "^2.88.0",
     "through2": "^3.0.1",
     "url-join": "^4.0.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
@@ -62,9 +63,12 @@
     "test": "MOCK=on nyc mocha -t 4000 test/*/*/*-test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "jshint --exclude-path .gitignore .",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 8.0.0"
-  }
+  },
+  "snyk": true
 }
