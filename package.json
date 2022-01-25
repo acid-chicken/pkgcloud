@@ -52,7 +52,7 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "hock": "^1.2.0",
-    "jshint": "^2.9.6",
+    "jshint": "^2.13.4",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
     "should": "^13.2.3"
