@@ -53,8 +53,8 @@
     "coveralls": "^3.0.2",
     "hock": "^1.2.0",
     "jshint": "^2.9.6",
-    "mocha": "^6.0.2",
-    "nyc": "^13.3.0",
+    "mocha": "^6.2.1",
+    "nyc": "^14.0.0",
     "should": "^13.2.3"
   },
   "main": "./lib/pkgcloud",
