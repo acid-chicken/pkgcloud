@@ -32,8 +32,8 @@
     "helion"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^2.4.3",
-    "async": "^2.6.1",
+    "@google-cloud/storage": "^3.0.0",
+    "async": "^3.2.2",
     "aws-sdk": "^2.382.0",
     "errs": "^0.3.2",
     "eventemitter2": "^5.0.1",
