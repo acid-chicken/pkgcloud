@@ -32,8 +32,8 @@
     "helion"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^2.4.3",
-    "async": "^2.6.1",
+    "@google-cloud/storage": "^5.19.0",
+    "async": "^3.0.0",
     "aws-sdk": "^2.382.0",
     "errs": "^0.3.2",
     "eventemitter2": "^5.0.1",
@@ -50,11 +50,11 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.10",
     "hock": "^1.2.0",
-    "jshint": "^2.9.6",
-    "mocha": "^6.0.2",
-    "nyc": "^13.3.0",
+    "jshint": "^2.13.0",
+    "mocha": "^9.1.2",
+    "nyc": "^17.0.0",
     "should": "^13.2.3"
   },
   "main": "./lib/pkgcloud",
